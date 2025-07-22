@@ -11,6 +11,4 @@ Tech Stack
  Java 17+
  Spring Boot
  MongoDB
- Maven
-
- ***
+ Maven ***
