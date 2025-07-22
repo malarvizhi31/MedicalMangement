@@ -19,7 +19,7 @@ public class MedicalManagementSystem {
     private final MongoCollection<Document> counterCollection;
 
     public MedicalManagementSystem() {
-        mongoClient = MongoClients.create("mongodb://localhost:27017");
+        mongoClient = MongoClients.create("mongodburi");
         database = mongoClient.getDatabase("medical_management");
         patientCollection = database.getCollection("patients");
         appointmentCollection = database.getCollection("appointments");
