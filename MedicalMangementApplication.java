@@ -10,8 +10,3 @@ public class MedicalMangementApplication {
     }
 }
 
-
-// mvn clean install -DskipTests to avoid err
-//mvnd clean install -DskipTests
-//mvnd spring-boot:run -e -X
-//mvnd spring-boot:run    
